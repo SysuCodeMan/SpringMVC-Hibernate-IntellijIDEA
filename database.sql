@@ -1,0 +1,9 @@
+CREATE SCHEMA IF NOT EXISTS `demo`;
+
+CREATE TABLE IF NOT EXISTS `demo`.`user` (
+    `userId` INT NOT NULL AUTO_INCREMENT,
+    `username` VARCHAR(50) NOT NULL,
+    `password` VARCHAR(50) NOT NULL,
+    PRIMARY KEY (`userId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
